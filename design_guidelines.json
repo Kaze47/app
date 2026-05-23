@@ -1,0 +1,132 @@
+{
+  "project_name": "Sports & Gaming Community App",
+  "theme": "Dark",
+  "archetype": "Archetype 2: The Performance Pro (Elite Athleticism & Precision)",
+  "core_philosophy": "Tactical Minimalism. High energy, command-center feel. Replace soft shadows with 1px solid strokes or inner glow highlights.",
+  "colors": {
+    "background": {
+      "primary": "#0A0A0A",
+      "secondary": "#141414",
+      "overlay": "rgba(10, 10, 10, 0.85)"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A1A1AA",
+      "muted": "#52525B"
+    },
+    "accents": {
+      "volt_blue": "#007AFF",
+      "electric_blaze": "#FF3B30",
+      "success_green": "#34C759"
+    },
+    "borders": {
+      "default": "#27272A",
+      "focus": "#007AFF"
+    }
+  },
+  "typography": {
+    "headings": {
+      "family": "Bebas Neue",
+      "weights": ["400"],
+      "usage": "Use for large titles, massive impact metrics, swipe card names. MUST use tracking-tight."
+    },
+    "body": {
+      "family": "DM Sans",
+      "weights": ["400", "500", "700"],
+      "usage": "Use for all body text, lists, and chat bubbles."
+    },
+    "scales": {
+      "h1": "48px, leading 48px, uppercase",
+      "h2": "32px, leading 36px, uppercase",
+      "h3": "24px, leading 28px",
+      "body_large": "18px, leading 24px",
+      "body": "16px, leading 22px",
+      "small": "14px, leading 20px, uppercase, wide tracking (0.1em)"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "16px (mobile safe area aware)",
+    "card_padding": "16px",
+    "gap_small": "8px",
+    "gap_medium": "16px",
+    "gap_large": "24px",
+    "border_radius": {
+      "small": "4px",
+      "medium": "8px",
+      "large": "16px",
+      "round": "9999px"
+    },
+    "layout_strategy": "Mobile-native, thumb-friendly. 44pt minimum touch targets. Use safe-area insets. Bottom tab navigation is fixed."
+  },
+  "components": {
+    "buttons": {
+      "primary": "Background: Volt Blue (#007AFF). Text: Pure White. Shape: rounded-medium (8px). 1px stroke of #FFFFFF/20 on top edge for tactile feel. Haptic feedback on press.",
+      "secondary": "Background: #141414. Border: 1px solid #27272A. Text: Pure White.",
+      "disabled": "Background: #27272A. Text: #52525B. No interactions."
+    },
+    "swipeable_cards": {
+      "container": "Full viewport height minus tabs. border-radius: 16px. Overflows hidden.",
+      "overlay": "Linear gradient overlay from bottom (rgba(10,10,10,1) 0%, rgba(10,10,10,0) 50%) to ensure text readability.",
+      "content": "Position absolute at bottom. Name in H1 Bebas Neue. Skills/Distance in tags (pill shape).",
+      "interactions": "PanResponder or react-native-reanimated for smooth swipe. Haptic feedback on right swipe."
+    },
+    "match_list_item": {
+      "container": "Background #141414, 1px solid #27272A. Flex row.",
+      "indicator": "Left-accent border. 4px width, Volt Blue for Gaming, Electric Blaze for Sports.",
+      "content": "Sport icon, Title, Location, DateTime, Participants count."
+    },
+    "bottom_tab_bar": {
+      "style": "Solid #141414 with top border #27272A. Safe area bottom inset added.",
+      "active_icon": "Volt Blue with subtle shadow/glow.",
+      "inactive_icon": "#A1A1AA"
+    },
+    "chat_bubbles": {
+      "user": "Background Volt Blue (#007AFF), border-radius 16px, bottom-right radius 4px.",
+      "other": "Background #27272A, border-radius 16px, bottom-left radius 4px."
+    }
+  },
+  "image_urls": [
+    {
+      "category": "onboarding_background",
+      "url": "https://static.prod-images.emergentagent.com/jobs/73b0f301-e64a-46a8-b6f6-f6425216c904/images/3d88855ebf1e13e4e577392465832a376a7b36b691087852088c92c791cb0fdb.png",
+      "description": "Abstract dark tactical texture with volt blue and electric blaze energy trails for login/auth screen background."
+    },
+    {
+      "category": "swipe_profile_placeholder_gaming",
+      "url": "https://images.unsplash.com/photo-1610041321420-a596dd14ebc9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwzfHxlc3BvcnRzJTIwZ2FtaW5nJTIwbmVvbiUyMGRhcmt8ZW58MHx8fHwxNzc5NTcyNDQyfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Man in blue hoodie with gaming headphones for gamer profile swipe card."
+    },
+    {
+      "category": "swipe_profile_placeholder_sports",
+      "url": "https://images.pexels.com/photos/30050102/pexels-photo-30050102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Dramatic silhouette of a basketball player for sports player profile swipe card."
+    },
+    {
+      "category": "match_cover_sports",
+      "url": "https://images.unsplash.com/photo-1590227632180-80a3bf110871?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwcGxheWVyJTIwZGFya3xlbnwwfHx8fDE3Nzk1NzI0NDJ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Person on basketball court for sports match placeholder."
+    }
+  ],
+  "icons_and_assets": {
+    "library": "lucide-react-native",
+    "usage": "Use lucide-react-native for all icons. Avoid emojis. Match stroke width to 2 for crispness.",
+    "specific_icons": {
+      "matches": "Trophy, Swords, or Gamepad2",
+      "players": "Users, SwatchBook",
+      "teams": "Shield",
+      "chat": "MessageSquare",
+      "profile": "User"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use React Native Expo.",
+    "Implement navigation using Expo Router (tabs).",
+    "Use expo-haptics for 'impactAsync(ImpactFeedbackStyle.Light)' when swiping right or pressing primary 'Join' buttons.",
+    "For Swipeable Cards, you can build a custom reanimated stack or use a library like react-native-deck-swiper, ensuring haptic feedback onRightSwipe.",
+    "ALL interactive elements and key text elements MUST have a data-testid (or testID in RN) attribute (e.g., testID='login-button', testID='match-item-title').",
+    "Images MUST NOT be rendered directly over text. Use LinearGradient from expo-linear-gradient for text readability on swipe cards.",
+    "For typography, install @expo-google-fonts/bebas-neue and @expo-google-fonts/dm-sans, or fallback to system sans-serif with strong styling if font loading is delayed.",
+    "Authentication UI: Use the onboarding_background as full screen ImageBackground, add a heavy dark overlay, and place the sign-in forms on top.",
+    "Dual-Mode Discovery: Implement a stylish segmented control (custom built with Animated) at the top header to toggle between Matches (List) and Players (Swipe)."
+  ]
+}
